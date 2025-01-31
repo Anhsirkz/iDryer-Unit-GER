@@ -28,8 +28,10 @@ Dieses Projekt vertritt das modulare System zur Steuerung von Filamentspulen fü
 - **Интеграция с Klipper:** отображение всех параметров сушки в интерфейсе Klipper.
 
 - **Подключение Telegram-бота:** получение уведомлений о текущем состоянии и завершении процесса.
+- **Anschließbarer Telegram-Bot:** 
 
 - **Визуальная индикация:** использование адресных светодиодов для отображения режимов работы.
+- **Visuelle Anzeige:** Verwendung adressierbarer Leuchtdioden für die Anzeige der Arbeitsmodi. (?)
 
 - **Печатаемый корпус:** доступен в вариантах для одной катушки и для двух катушек. Подходит для катушек шириной до 85 мм и диаметром до 200 мм. Корпус можно напечатать на 3D-принтере из ABS или другого подходящего пластика.
 
@@ -38,9 +40,11 @@ Dieses Projekt vertritt das modulare System zur Steuerung von Filamentspulen fü
 - **Подключение дополнительных модулей**: Дополнительные сушилки подключаются к управляющей с помощью патчкордов через RJ45 разъёмы для надёжной связи.
 
 - **Централизованная архитектура**: Одна сушилка оснащена MCU и выступает в роли управляющего блока, остальные сушилки подключаются к ней и управляются через периферию. Также возможна настройка iDryer как отдельного экземпляра Klipper для работы с отдельной системой управления или как второго MCU, подключенного к основной плате принтера на один экземпляр Klipper.
+- **Zentrale Architektur**: 
 
 - **Безопасность:** встроенный термостат KSD9700 на 130°C и алгоритмы безопасности Klipper.
-
+- **Sicherheit:**
+  
 - **Эффективность сушки**: За счет использования датчика влажности и системы проветривания камеры, которая управляется сервоприводом заслонки по расписанию, достигаются оптимальные результаты сушки пластика в кратчайшие сроки.
   ![iDryer Unit Master](img/IMG_2168.jpg)
   ![iDryer Unit Master](img/IMG_2170.jpg)
@@ -55,7 +59,7 @@ Dieses Projekt vertritt das modulare System zur Steuerung von Filamentspulen fü
 - **Визуализация**: светодиоды обеспечивают быструю оценку состояния устройства.
 - **Безопасность**: Аппаратные и программные средства обеспечивают безопасную работу системы.
 
-## Технические детали
+## Technische Details Технические детали
 
 - **iDryer Unit MCU**: основной блок управления с микроконтроллером.
 - **iDryer Unit EXT**: модуль расширения без MCU.
@@ -84,20 +88,29 @@ Dieses Projekt vertritt das modulare System zur Steuerung von Filamentspulen fü
 3. **Настройка Klipper**: Интегрируйте систему сушки в конфигурацию Klipper.
 4. **Тестирование**: Проверьте работу системы и убедитесь в корректности отображения данных в интерфейсе Klipper.
 
-## Требования
+## Anforderungen Требования
 
 - 3D-принтер с установленной прошивкой Klipper.
+- 3D-Drucker mit eingerichteter Klipper-Firmware.
+  
 - плата iDryer с MCU для основной сушилки.
+- iDryer Platine mit MCU für den Haupttrockner.
+
 - Термостат KSD9700 на 130°C для каждой сушилки.
+??- Thermometer KSD9700 auf 130°C für den Haupttrockner.
+
 - RJ45 патчкорды и разъёмы для подключения дополнительных модулей к основной сушилке.
+???- RJ45 Patchfeld und Anschluß für den Anschluß der Nebenmodule mit Haupttrockner.
+
 - Дополнительные платы управления iDryer Unit по количеству подключаемых сушилок.
+- Zusätzliche Kontrollplatine iDryer Unit 
 
 ---
 
-# Конфигурация iDryer для Klipper
+# Konfiguration von iDryer für Klipper Конфигурация iDryer для Klipper
 
 Этот репозиторий содержит конфигурационные файлы для сушилки пластика iDryer, основанной на прошивке Klipper и плате управления iDryer Unit с микроконтроллером RP2040. Конфигурация предназначена для автоматизации процесса сушки пластика для 3D-принтеров, включая контроль температуры и влажности.
-
+Dieses Repository beinhaltet Konfigurationsdateien für den Filamenttrockner iDryer, basierend auf der Klipper-Firmware und der iDryer Unit Platine mit (???)Bodenwasser.
 ## Оглавление
 
 - [Требования](#требования)
