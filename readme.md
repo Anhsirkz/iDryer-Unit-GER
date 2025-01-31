@@ -2,7 +2,7 @@ https://github.com/pavluchenkor/iDryer-Unit/blob/main/readme_en.md
 [![English](https://img.shields.io/badge/<LANGUAGE>-<STATUS>-<RED>.svg)](https://github.com/pavluchenkor/iDryer-Unit/blob/main/readme_en.md)
 [![English](https://img.shields.io/badge/:badgeContent?style=plastic)]
 
-[![Telegram](🇬🇧)](https://github.com/pavluchenkor/iDryer-Unit/blob/main/readme_en.md
+[![Telegram](🇬🇧English)](https://github.com/pavluchenkor/iDryer-Unit/blob/main/readme_en.md
 )
 
 [![English](https://github.com/pavluchenkor/iDryer-Unit/blob/main/readme_en.md)](English)
